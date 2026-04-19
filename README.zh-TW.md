@@ -10,7 +10,7 @@
 https://github.com/palant/extended-saveimage-comfyui
 ```
 
-該儲存庫目前似乎已無法使用，因此這份副本保存在這裡，供 ComfyUI 社群繼續使用。
+原始儲存庫已由作者封存，目前為唯讀狀態，因此這份 fork 保存在這裡，供 ComfyUI 社群繼續使用。
 
 ## 這個節點的功能
 

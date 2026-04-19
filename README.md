@@ -10,7 +10,7 @@ The original repository was previously available at:
 https://github.com/palant/extended-saveimage-comfyui
 ```
 
-That repository appears to be unavailable, so this copy is preserved here for continued use by the ComfyUI community.
+The original repository has been archived by its owner and is now read-only, so this fork is preserved here for continued use by the ComfyUI community.
 
 ## What this node does
 
