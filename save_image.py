@@ -35,6 +35,11 @@ class SaveImageExtended:
 
 
     def save_images(self, images, filename_prefix="ComfyUI", file_type=FILE_TYPE_PNG, prompt=None, extra_pnginfo=None):
+        from datetime import datetime
+
+        today_str = datetime.now().strftime("%Y-%m-%d")
+        filename_prefix = filename_prefix.replace("%Y-%m-%d", today_str).replace("%date%", today_str).replace("%date:yyyy-MM-dd%", today_str)
+
         output_dir = folder_paths.get_output_directory()
         full_output_folder, filename, counter, subfolder, _ = folder_paths.get_save_image_path(filename_prefix, output_dir, images[0].shape[1], images[0].shape[0])
         extension = {

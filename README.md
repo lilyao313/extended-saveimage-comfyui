@@ -1,7 +1,53 @@
 # Extended Save Image for ComfyUI
 
-This custom node is largely identical to the usual Save Image but allows saving images also in JPEG and WEBP formats, the latter with both lossless and lossy compression. Metadata is embedded in the images as usual, and the resulting images can be used to load a workflow.
+A community-maintained archive/fork of **Extended Save Image for ComfyUI**, originally created by **palant**.
+
+The original repository was previously available at:
+
+```text
+https://github.com/palant/extended-saveimage-comfyui
+```
+
+That repository appears to be unavailable, so this copy is preserved here for continued use by the ComfyUI community.
+
+## What this node does
+
+This custom node is largely identical to ComfyUI's default Save Image node, but adds support for saving images as:
+
+- PNG
+- JPEG
+- WEBP lossless
+- WEBP lossy
+
+Metadata is embedded in the images as usual, and the resulting images can be used to load a workflow.
+
+## Changes in this fork
+
+Compared with the original version, this fork includes:
+
+- Support for replacing date placeholders in `filename_prefix`, including:
+  - `%Y-%m-%d`
+  - `%date%`
+  - `%date:yyyy-MM-dd%`
 
 ## Installation
 
-To install, clone this repository into `ComfyUI/custom_nodes` folder with `git clone https://github.com/palant/extended-saveimage-comfyui` and restart ComfyUI.
+Clone this repository into your `ComfyUI/custom_nodes` folder:
+
+```bash
+git clone https://github.com/lilyao313/extended-saveimage-comfyui
+```
+
+Then restart ComfyUI.
+
+## Attribution
+
+Original project by **palant**.
+
+This repository is a preserved and modified fork maintained by **lilyao313**.
+
+## License
+
+This project is licensed under the GNU General Public License v3.0. See [LICENSE](LICENSE).
+
+This fork preserves the original GPLv3 license and marks modifications made after the original release.
