@@ -2,6 +2,8 @@
 
 A community-maintained archive/fork of **Extended Save Image for ComfyUI**, originally created by **palant**.
 
+I really like this node because it stays simple and focused: it does not add many complicated options, and only provides a straightforward way to choose the image format when saving. That simplicity is why I wanted to preserve a copy.
+
 The original repository was previously available at:
 
 ```text
