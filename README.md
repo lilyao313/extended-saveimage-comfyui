@@ -48,6 +48,8 @@ Original project by **palant**.
 
 This repository is a preserved and modified fork maintained by **lilyao313**.
 
+If the original author or contributors would like the attribution changed, please open an issue.
+
 ## License
 
 This project is licensed under the GNU General Public License v3.0. See [LICENSE](LICENSE).

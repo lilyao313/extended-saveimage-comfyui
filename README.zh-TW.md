@@ -48,6 +48,8 @@ git clone https://github.com/lilyao313/extended-saveimage-comfyui
 
 這個儲存庫是由 **lilyao313** 維護的保存版與修改版 fork。
 
+如果原作者或貢獻者希望調整署名方式，歡迎開 issue 聯絡。
+
 ## 授權
 
 本專案採用 GNU General Public License v3.0 授權。詳情請見 [LICENSE](LICENSE)。
